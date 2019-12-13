@@ -1,0 +1,3 @@
+zip -r upload.zip ./*
+aws lambda update-function-code --function-name ${lambdaname} --zip-file fileb://${sourcepath}/${lambdaname}/upload.zip
+
