@@ -23,7 +23,7 @@ class KadoudbAccess:
 
     '''
     コンストラクタ
-    DBサーバの種別（0:NTTデータ社員用、1:協働者社員用）、DBの接続情報を設定する。
+    DBサーバの種別（0:proper、1:partner）、DBの接続情報を設定する。
     '''
     def __init__(self, server_id=0):
         if server_id != 0:
